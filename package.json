@@ -1,0 +1,20 @@
+{
+  "name": "appjs-on-jenkins",
+  "version": "1.0.0",
+  "description": "This is a minimal Express API to test add (POST), update (PUT), and delete (DELETE) operations on an in-memory `items` list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@pvs:poVvisal/appjs-on-jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
