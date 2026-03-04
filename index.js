@@ -6,7 +6,9 @@ app.get('/', (req, res) => {
 
 });
 
-
+app.delete('/', (req, res) => {
+    res.send("hello from delete API");
+});
 
 app.listen(3000, () => {
     console.log(" the server is running on port 3000");
