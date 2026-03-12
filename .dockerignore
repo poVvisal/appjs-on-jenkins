@@ -1,0 +1,26 @@
+# Ignore common development and source control files
+.git
+.gitignore
+node_modules
+npm-debug.log
+__pycache__
+*.pyc
+*.log
+.cache
+.pytest_cache
+
+# Ignore sensitive files
+.env
+*.key
+*.pem
+
+# Ignore documentation, tests, and build artifacts
+docs/
+test*
+dist/
+target/
+
+# Although sent to the daemon for the build process, adding them here
+# prevents them from being copied into the final image itself.
+Dockerfile
+docker-compose.yml
